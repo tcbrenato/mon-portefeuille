@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Tcb corporate</title>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">TCB<span> CORPORATE</span></a>
+      <i class="bx bx-menu" id="menu-icon" class="icons"></i>
+      <div class="navbar">
+        <ul>
+          <a href="#home" class="active">Acceuil</a>
+          <a href="#about">A propos</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </ul>
+      </div>
+    </header>
+
+    <!-------header-text------->
+    <div class="header-content" id="home">
+      <div class="text">
+        <p>Hello C'est <span>Rénato TCHOBO</span></p>
+        <h1>Je Suis Béninois</h1>
+        <h2>et Je Suis <span class="effet-text"></span></h2>
+        <div class="icons">
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-tiktok"></i>
+          <i class="bx bxl-youtube"></i>
+        </div>
+        <a href="./Asset/CV RENATO TCHOBO.pdf" download class="btn">Télécharge mon CV</a>
+      </div>
+      <img src="./Asset/ma photo.png" class="header-img" alt="Renato TCHOBO" />
+    </div>
+
+    <!------------ section-apropos --------->
+    <section class="about" id="about">
+      <div class="about-img"><img src="./Asset/affiche tcb rouge.jpg" alt="Rénato TCHOBO" /></div>
+      <div class="about-text">
+        <h2 class="title">A propos de <span>moi</span></h2>
+        <h1>REFERENT DIGITAL !</h1>
+        <p>
+            Passionné par le numérique et son impact sur la société, j'ai récemment terminé ma formation en tant que Référent Digital, offerte par Simplon et Société Inclusive. Mon parcours académique m’a permis d'acquérir une solide compréhension des enjeux liés à la digitalisation, ainsi que des compétences pratiques en gestion de projets digitaux. Je me consacre à aider les entreprises à naviguer dans cet écosystème en constante évolution, en tirant parti des nouvelles technologies pour améliorer leur efficacité et leur visibilité. <br><br>
+            <h2>Vision et Mission</h2>
+
+            <p>Je crois fermement que la digitalisation doit être inclusive et accessible à tous. Mon objectif est de contribuer à des projets qui non seulement favorisent l'innovation, mais qui prennent également en compte les besoins de tous les utilisateurs. Dans un monde où la technologie évolue rapidement, je suis motivé par le désir d'aider les entreprises à s'adapter et à prospérer tout en respectant des valeurs d'éthique et de responsabilité sociale. Je suis convaincu que le digital peut être un levier puissant pour créer des opportunités et améliorer la qualité de vie des individus et des communautés.</p>
+        </p>
+        <a href="#services" class="btn">Voir Plus</a> <br>
+      </div>
+    </section>
+
+    <!-- section-services -->
+    <section class="services" id="services">
+      <h2 class="title"><span>S</span>ervices</h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h2>Développement web</h2>
+          <p>
+            Connaissance des langages HTML, CSS, et JavaScript, me permettant de collaborer efficacement avec des équipes de développement.
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-paint"></i>
+          <h2>Gestion de projets numériques & Conception graphique</h2>
+          <p>
+            Planification, exécution et suivi de projets numériques, en assurant la coordination entre les différentes parties prenantes
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h2>Marketing Numérique</h2>
+          <p>
+            Élaboration et mise en œuvre de stratégies de marketing en ligne, y compris les réseaux sociaux, l'emailing, et le content marketing.
+          </p>
+          <a href="#portfolio" class="btn">Voir Plus</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="title"><span>P</span>rojets</h2>
+      <div class="row">
+        <div class="portfolio-box">
+          <img src="./Asset/AFFICHE OBAMAPS.png" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="./Asset/AFFICHE LIE.png" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="./Asset/AFF PEKIS PHTGPHIE.png" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="./Asset/Blue Yellow Modern Registration Is Open Facebook Post.png" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="./Asset/Grow your brand across multiple digital platforms.jpeg" alt="" />
+        </div>
+        <div class="portfolio-box">
+          <img src="./Asset/affiche slip océ.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section-contact -->
+    <section class="contact" id="contact">
+      <h2 class="title"><span>C</span>ontact</h2>
+      <form action="">
+        <div class="contact-input">
+          <input type="text" placeholder="Entrer Votre Nom" />
+          <input type="text" placeholder="Entrer Votre Email" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Entre votre texte"
+        ></textarea>
+        <a class="btn">Valider</a>
+      </form>
+    </section>
+
+    <!------- copyright ------->
+    <section class="copyright">
+      <p>Copyright &copy; 2024 TCB CORPORATE.</p>
+      <a href="#home" class="btn">Retour à l'Acceuil</a>
+    </section>
+
+    <!-- scroll reval -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
